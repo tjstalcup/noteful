@@ -1,0 +1,10 @@
+.Nav {
+  font-size: 50px;
+  height: 200px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.Nav a {
+  text-decoration: none;
+}
