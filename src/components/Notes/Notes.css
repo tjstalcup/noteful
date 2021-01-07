@@ -1,0 +1,6 @@
+.Note_List ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
