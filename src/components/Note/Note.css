@@ -1,5 +1,4 @@
 .Note {
-  --note-height: 88px;
   background-color: darkgrey;
   color: #cacaca;
   height: 200px;
@@ -10,7 +9,7 @@
 }
 
 .Note_title {
-  font-family: var(--custom-font);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #fff;
   font-size: 20px;
   margin: 0;
@@ -28,18 +27,14 @@
 }
 
 .Note_delete {
-  --note-button-height: 32px;
   background-color: #041a3a;
   border: 0;
   color: #bdbcbc;
   float: right;
   font-size: 12px;
-  height: var(--note-button-height);
+  height: 32px;
   position: relative;
-  top: calc((var(--note-button-height) + 32px) * -1);
-  transform-origin: right bottom;
-  transform: rotate(-90deg);
-  width: calc(var(--note-height));
+  margin-right: 5px;
 }
 .Note_delete:hover {
   background-color: #bd0909;

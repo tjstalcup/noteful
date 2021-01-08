@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Note from "../Note/Note";
-import NOTES from "../../dummy-store";
+import LIST from "../../dummy-store";
 import "./Notes.css";
 
 class Notes extends Component {
@@ -8,12 +9,15 @@ class Notes extends Component {
     return (
       <section className="Note_List">
         <ul>
-          {NOTES.notes.map((note, i) => (
+          {LIST.notes.map((note, i) => (
             <li key={i}>
               <Note id={note.id} name={note.name} modified={note.modified} />
             </li>
           ))}
         </ul>
+        <section className="Add-Note">
+          <Link to="/add/note">Add Note</Link>
+        </section>
       </section>
     );
   }
