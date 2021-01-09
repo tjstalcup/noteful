@@ -1,24 +1,25 @@
 .Note {
   background-color: darkgrey;
-  color: #cacaca;
-  height: 200px;
-  margin-bottom: 8px;
-  max-width: 380px;
-  padding: 8px 0 8px 8px;
+  color: black;
+
+  padding: 20px;
+  border: 1px solid red;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto 8px;
 }
 
 .Note_title {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #fff;
+
   font-size: 20px;
-  margin: 0;
-  max-width: 80%;
-  min-height: 24px;
+  margin: 10px 0;
 }
 
 .Note_title a {
-  color: #cacaca;
+  color: black;
   display: block;
   text-decoration: none;
 }
@@ -30,22 +31,17 @@
   background-color: #041a3a;
   border: 0;
   color: #bdbcbc;
-  float: right;
   font-size: 12px;
-  height: 32px;
-  position: relative;
-  margin-right: 5px;
+  margin: 10px 5px;
+  padding: 10px;
 }
 .Note_delete:hover {
   background-color: #bd0909;
   color: white;
   cursor: pointer;
-  font-weight: bold;
 }
 
 .Note_Date {
-  bottom: 8px;
   color: darkslategray;
   font-size: 14px;
-  position: absolute;
 }

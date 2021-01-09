@@ -1,3 +1,9 @@
+.Note_List ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .Note_List ul li {
   list-style-type: none;
   margin: 0;
